@@ -83,13 +83,66 @@ nav{
 }
 .banner-description{
     color: var(--description-color-color);
+    font-family: "Open Sans", sans-serif;
 }
-.banner-titel-color{
+.titel-color{
     color: var(--primary-color-color);
 }
 .banner-imges img{
     width: 100%;
 }
+/* -------------- Our Plants  Section-------------- */
+
+.ourplants-section{
+font-family: "Open Sans", sans-serif;
+margin-bottom: 200px;
+}
+.ourplants-container{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 30px;
+}
+.ourplants-titel{
+    text-align: center;
+    font-size: 3.1rem;
+}
+.ourplants-description{
+    color: var(--description-color-color);
+    width: 888px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 16px;
+}
+
+
+
+
+.ourplants-card h4{
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.ourplants-card h5{
+     font-size: 1.3rem;
+     text-align: center;
+     margin-bottom: 30px;
+}
+
+
+
+.ourplants-btn{
+    width: 270px;
+    height: 50px;
+    border: none;
+    background-color: var(--primary-color-color);
+    color: white;
+}
+
+
+
+
 
 
 
@@ -107,7 +160,7 @@ nav{
    .text, .text-one{
     display: none;
    }
-   
+   /* nav / banner section  */
    header{
     width: 390px;
    }
@@ -116,6 +169,7 @@ nav{
    }
    nav{
     width: 360px;
+    margin: 13px 16px;
    }
    .banner-content{
     width: 360px;
@@ -130,8 +184,25 @@ nav{
    .banner-imges img{
     width: 100%;
    }
+   /* ----- Our Plants  Section-----*/
+
+   .ourplants-titel{
+    font-size: 1.3rem;
+   }
+   .ourplants-description{
+    width: 336px;
+   }
+   .ourplants-container{
+    grid-template-columns: repeat(2,1fr);
+    width:362px ;
+   }
+   .ourplants-section{
+    width: 362px;
+   }
+
 
 }
+
 
 
 
