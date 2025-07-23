@@ -24,6 +24,7 @@
 }
 :root{ 
     --light-gray-color:#8987A1;
+    --description-color-color:rgba(0, 0, 0, 0.5);
     --dark-color-color:#000000;
     --primary-color-color:#E95A08;
     
@@ -36,7 +37,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     font-family: "Open Sans", sans-serif;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 120px;
 }
 .nav-logo img{
     width: 100%;
@@ -57,4 +59,90 @@ nav{
 }
 .text{
     color: var(--light-gray-color);
+}
+
+/* -- ========= HBanner Section ========= -- */
+
+.banner-section{
+    margin-bottom: 120px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    width: 570px;
+}
+
+.banner-titel{
+    font-size: 4rem;
+   font-family: "Noto Serif", sans-serif;
+   margin-bottom: 13px;
+   padding-top: 90px;
+}
+.banner-description{
+    color: var(--description-color-color);
+}
+.banner-titel-color{
+    color: var(--primary-color-color);
+}
+.banner-imges img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive media  */
+
+@media screen and (max-width: 576px){
+
+   .text, .text-one{
+    display: none;
+   }
+   
+   header{
+    width: 390px;
+   }
+   .nav-menu{
+    margin-left: -200px;
+   }
+   nav{
+    width: 360px;
+   }
+   .banner-content{
+    width: 360px;
+   }
+   .banner-titel{
+    font-size: 1.8rem;
+    padding-top: 28px;
+   }
+   .banner-container{
+    flex-direction: column-reverse;
+   }
+   .banner-imges img{
+    width: 100%;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+/* medium size device  */
+
+@media screen and (min-width:676px) and (max-width:992px){
+
 }
