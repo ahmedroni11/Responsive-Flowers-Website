@@ -242,6 +242,7 @@ margin-bottom: 230px;
     width: 100%;
     height: 533px;
    background-image: url(./assets/news-letter-bg.png);
+   background-position: center;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -267,6 +268,59 @@ margin-bottom: 230px;
     margin-left: -130px;
 }
 
+/* --------- Footer section ----------*/
+
+   footer{
+    width: 100%;
+    height: 348px;
+    font-family: "Open Sans", sans-serif;
+   }
+   .footer-container{
+    max-width: 1120px;
+    margin:  auto;
+   }
+
+   .footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+   }
+   .footer-content{
+    width: 359px;
+   }
+   .footer-description{
+    color: var(--description-color-color);
+    margin-top: 20px;
+   }
+   .footer-menu1 ul li{
+    list-style: none;
+    margin-bottom: 40px;
+   }
+   .footer-menu1 a{
+    text-decoration: none;
+    color: var(--description-color-color);
+   }
+   .footer-menu2 ul li{
+    list-style: none;
+     margin-bottom: 40px;
+   }
+   .footer-menu2 a{
+    text-decoration: none;
+    color: var(--description-color-color);
+   }
+   .footer-socail-icone i{
+    margin-left: 24px;
+    font-size:1.5rem ;
+   }
+   .fa-linkedin{
+    color: #2489BE;
+   }
+   .fa-facebook{
+    color: #3DACFE;
+   }
+   .fa-youtube{
+    color: #FF0000;
+   }
 
 
 
@@ -420,6 +474,17 @@ margin-bottom: 230px;
     margin-bottom: 40px;
    }
 
+   /* footer section  */
+
+   .footer-container{
+    flex-direction: column;
+    margin-left: 30px;
+    margin-bottom: 30px;
+   }
+   .footer-socail-icone {
+    margin-left: -30px;
+    margin-bottom: 50px;
+   }
 
 }
 
