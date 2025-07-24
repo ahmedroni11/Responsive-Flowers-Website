@@ -230,11 +230,41 @@ margin-bottom: 230px;
 }
 .box3-titel{
     font-size: 3rem;
-    margin-top: 90px;
+    margin-top: 110px;
 
 }
 .box3-link{
     font-size: 1.5rem;
+}
+/* ----- Join section -----*/
+
+.join-section{
+    width: 100%;
+    height: 533px;
+   background-image: url(./assets/news-letter-bg.png);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.join-titel{
+    font-size: 3.1rem;
+    color:#ffffff ;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.join-input{
+    width: 800px;
+    height: 50px;
+    padding-left: 30px;
+}
+.join-btn{
+    height: 52px;
+    border: none;
+    padding: 0 40px;
+   background-color: var(--primary-color-color);
+    color: white;
+    margin-left: -130px;
 }
 
 
@@ -373,6 +403,21 @@ margin-bottom: 230px;
    }
    .latest-deals-container{
     padding: 20px;
+   }
+   .join-section{
+    padding: 20px;
+     width:373px;
+    height: 275px; 
+    background-position: center;
+   }
+   .join-titel{
+    font-size: 1.8rem;
+   }
+   .join-input{
+    width: 295px;
+   }
+   .latest-deals-section{
+    margin-bottom: 40px;
    }
 
 
