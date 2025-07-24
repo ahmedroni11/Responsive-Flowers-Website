@@ -142,7 +142,7 @@ margin-bottom: 230px;
 /* ----- Flower & Plants Lover section -----*/
 
 .plants-lover-section{
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     position: relative;
 }
 .plants-lover-container{
@@ -176,7 +176,66 @@ margin-bottom: 230px;
     width: 286px;
 }
 
+/* ----- Latest Deals section -----*/
 
+.latest-deals-section{
+    margin-bottom: 120px;
+}
+.latest-deals-taitel{
+    font-size:3.1rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.latest-deals-description{
+    color: var(--description-color-color);
+    text-align: center;
+    width: 888px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 15px;
+}
+
+
+.latest-deals-container{
+  display: flex;
+  gap: 20px;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.latest-deals-container h3{
+    padding-top: 70px;
+}
+.latest-deals-container a{
+    color: white;
+}
+.latest-deals-box1{
+    background-image: url(./assets/deal-bloom.png);
+    border-radius: 12px;
+    width: 366px;
+    height: 200px;
+    margin-bottom: 20px;  
+}
+.latest-deals-box2{
+    background-image: url(./assets/deal-ana.png);
+    width: 366px;
+    height: 200px;
+    border-radius: 12px;
+}
+.latest-deals-box3{
+    background-image: url(./assets/deal-zabo.png);
+    width: 753px;
+    border-radius: 22px;
+    
+}
+.box3-titel{
+    font-size: 3rem;
+    margin-top: 90px;
+
+}
+.box3-link{
+    font-size: 1.5rem;
+}
 
 
 
@@ -276,10 +335,48 @@ margin-bottom: 230px;
    .badge{
     display: none;
    }
+
+/* ----- Latest Deals section -----*/
+
+   .latest-deals-container{
+    flex-direction: column;
+   }
+   .latest-deals-taitel{
+    font-size: 2rem;
+   }
+   .latest-deals-description{
+    width: 336px;
+    margin-bottom: 40px;
+   }
+   .plants-lover-section{
+    margin-bottom: 30px;
+   }
+   .latest-deals-box1{
+    width: 361px;
+    height: 172px;
+   }
+   .latest-deals-box2{
+    width: 361px;
+    height: 172px;
+   }
+   .latest-deals-box3{
+    width:361px ;
+    height: 172px;
+   }
+   .box3-titel{
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+   }
+   .box3-link{
+    font-size: 1.3rem;
+   }
+   .latest-deals-container{
+    padding: 20px;
+   }
+
+
 }
-
-
-
 
 
 
@@ -289,6 +386,4 @@ margin-bottom: 230px;
 
 /* medium size device  */
 
-@media screen and (min-width:676px) and (max-width:992px){
-
-}
+/* @media screen and (min-width:676px) and (max-width:992px){} */
