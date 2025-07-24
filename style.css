@@ -361,11 +361,12 @@ margin-bottom: 230px;
    }
    .banner-imges img{
     width: 100%;
+    margin-left: 13px;
    }
    /* ----- Our Plants  Section-----*/
 
    .ourplants-titel{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-left: 40px;
    }
    .ourplants-description{
@@ -414,7 +415,8 @@ margin-bottom: 230px;
         width: 361px;
     }
     .plants-lover-titel{
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+        margin-left: 10px;
     }
    .badge{
     display: none;
@@ -426,7 +428,7 @@ margin-bottom: 230px;
     flex-direction: column;
    }
    .latest-deals-taitel{
-    font-size: 2rem;
+    font-size: 2.2rem;
    }
    .latest-deals-description{
     width: 336px;
@@ -458,6 +460,8 @@ margin-bottom: 230px;
    .latest-deals-container{
     padding: 20px;
    }
+   /* join section  */
+
    .join-section{
     padding: 20px;
      width:373px;
@@ -469,6 +473,7 @@ margin-bottom: 230px;
    }
    .join-input{
     width: 295px;
+    background-color: white;
    }
    .latest-deals-section{
     margin-bottom: 40px;
@@ -490,10 +495,83 @@ margin-bottom: 230px;
 
 
 
-
-
-
-
 /* medium size device  */
 
-/* @media screen and (min-width:676px) and (max-width:992px){} */
+ @media screen and (min-width:676px) and (max-width:992px){
+    
+    nav{
+        padding: 10px 50px;
+    }
+    .banner-container{
+        padding-left: 50px;
+    }
+    .banner-titel{
+    font-size: 2.5rem;
+    padding-top: 28px;
+   }
+
+   /* our plants section  */
+
+   .ourplants-container{
+    grid-template-columns: repeat(2,1fr);
+   }
+   .ourplants-description{
+    width: 700px;
+   }
+   .ourplants-card{
+    width: 371px;
+    margin-left: 40px;
+   }
+   .ourplants-btn{
+    width: 371px; 
+   }
+
+/* flower secftion  */
+   .ourplants-section{
+    margin-bottom: 100px;
+   }
+   .plants-lover-section{
+    margin-bottom: 30px;
+   }
+   .plants-lover-container{
+    flex-direction: column;
+   }
+   .plants-lover-content{
+    width: 800px;
+   }
+   .plants-lover-imges{
+    width: 850px;
+   }
+   .plants-lover-titel{
+    font-size: 2.5rem;
+    margin-left: 20px;
+   }
+   .badge{
+    display: none;
+   }
+
+   /* latest deal section */
+   .latest-deals-taitel{
+    font-size: 3.4rem;
+   }
+   .latest-deals-description{
+    width: 700px;
+    margin-bottom: 60px;
+   }
+   .latest-deals-container{
+    padding: 30px;
+    margin-bottom: -50px;
+   }
+   /* footer section  */
+   footer{
+    padding: 30px;
+    width: 850px;
+   }
+   .footer-description{
+    width: 240px;
+   }
+   .footer-socail-icone{
+    margin-left: -40px;
+   }
+
+ } 
