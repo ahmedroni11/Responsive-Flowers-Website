@@ -16,7 +16,9 @@
 .inter-font {
   font-family: "Open Sans", sans-serif;
 }
-
+main{
+    /* background-color: bisque; */
+}
 /* -- ========= Share Style========= -- */
 .container{
     max-width: 1140px;
@@ -95,7 +97,7 @@ nav{
 
 .ourplants-section{
 font-family: "Open Sans", sans-serif;
-margin-bottom: 200px;
+margin-bottom: 230px;
 }
 .ourplants-container{
    display: grid;
@@ -115,9 +117,6 @@ margin-bottom: 200px;
     margin-top: 16px;
 }
 
-
-
-
 .ourplants-card h4{
     font-size: 1.3rem;
     margin-top: 30px;
@@ -129,9 +128,9 @@ margin-bottom: 200px;
      text-align: center;
      margin-bottom: 30px;
 }
-
-
-
+.ourplants-card img{
+    width: 100%;
+}
 .ourplants-btn{
     width: 270px;
     height: 50px;
@@ -140,6 +139,42 @@ margin-bottom: 200px;
     color: white;
 }
 
+/* ----- Flower & Plants Lover section -----*/
+
+.plants-lover-section{
+    margin-bottom: 100px;
+    position: relative;
+}
+.plants-lover-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+}
+.plants-lover-imges img{
+ width: 100%;
+}
+.plants-lover-content{
+    font-family: "Open Sans", sans-serif;
+    width: 540px;
+}
+.plants-lover-titel{
+    font-size: 4rem;
+}
+.plants-lover-list{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: var(--description-color-color);
+    margin-left: 30px;
+}
+.badge{
+    position: absolute;
+    top: -130px;
+    left: 340px;
+}
+.badge img{
+    width: 286px;
+}
 
 
 
@@ -187,20 +222,60 @@ margin-bottom: 200px;
    /* ----- Our Plants  Section-----*/
 
    .ourplants-titel{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    margin-left: 40px;
    }
    .ourplants-description{
-    width: 336px;
+    width: 346px;
+    margin-left: 30px;
+    
    }
    .ourplants-container{
     grid-template-columns: repeat(2,1fr);
     width:362px ;
+    gap: 10px;
+    margin-left: 25px;
    }
    .ourplants-section{
     width: 362px;
    }
+   .ourplants-card img{
+    width: 100%;
+   }
+   .ourplants-section{
+    margin-bottom: 40px;
+   }
+   .ourplants-card{
+    width: 171px;
+   }
+   .ourplants-card h4{
+    font-size: 1rem;
+    margin-top: 15px;
+   }
+   .ourplants-card h5{
+    font-size: 1rem;
+   }
+   .ourplants-btn{
+    width: 171px;
+   } 
 
+/* ----- Flower & Plants Lover section 3-----*/
 
+    .plants-lover-container{
+        flex-direction: column;
+    }
+    .plants-lover-imges{
+        width: 90%;
+    }
+    .plants-lover-content{
+        width: 361px;
+    }
+    .plants-lover-titel{
+        font-size: 1.4rem;
+    }
+   .badge{
+    display: none;
+   }
 }
 
 
