@@ -34,6 +34,64 @@
 
 /* -- ========= Header / Navbar ========= -- */
 
+.zoom-section {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: zoomIn 1.5s ease-out forwards;
+}
+
+@keyframes zoomIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* badge animation  */
+.spinner {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* footer animation  */
+
+.animated-section {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeSlideUp 1.5s ease-out forwards;
+  
+}
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* joom section animation  */
+
+.zoom-section {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: zoomIn 1.5s ease-out forwards;
+
+}
+
+@keyframes zoomIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+    /* animation end  */
 nav{
     display: flex;
     justify-content: space-between;
@@ -42,6 +100,7 @@ nav{
     margin-top: 20px;
     margin-bottom: 120px;
 }
+
 .nav-logo img{
     width: 100%;
 }
@@ -130,6 +189,12 @@ margin-bottom: 230px;
 }
 .ourplants-card img{
     width: 100%;
+
+     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.ourplants-card img:hover{
+    animation: bounce 0.5s;
 }
 .ourplants-btn{
     width: 270px;
@@ -137,7 +202,19 @@ margin-bottom: 230px;
     border: none;
     background-color: var(--primary-color-color);
     color: white;
+
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
+.ourplants-btn:hover{
+    animation: bounce 0.5s;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
 
 /* ----- Flower & Plants Lover section -----*/
 
