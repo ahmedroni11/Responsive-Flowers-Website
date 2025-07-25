@@ -18,6 +18,46 @@
   font-family: "Open Sans", sans-serif;
 }
 
+/* welcome-alert  */
+.welcome-alert {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* background-color: #4CAF50; */
+  background-color: #333;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  font-size: 1.1rem;
+  z-index: 9999;
+  animation: showThenHide 3s ease-in-out forwards;
+}
+
+/* Keyframes: Show > Wait > Hide */
+@keyframes showThenHide {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-30px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  85% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-30px);
+  }
+}
+
+
+
+
 /* -- ========= Share Style========= -- */
 
 .container{
